@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/UI.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Background.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/MainMenu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/Gameplay.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/Spawner.gd" type="Script" id=7]
+
+[node name="Gameplay" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Background" parent="." instance=ExtResource( 3 )]
+
+[node name="Spawnerr" type="Node2D" parent="."]
+position = Vector2( 128, 0 )
+script = ExtResource( 7 )
+
+[node name="SpawnTimer" type="Timer" parent="Spawnerr"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" parent="CanvasLayer" instance=ExtResource( 2 )]
+
+[node name="menu" parent="CanvasLayer/UI" instance=ExtResource( 4 )]
+
+[connection signal="timeout" from="Spawnerr/SpawnTimer" to="Spawnerr" method="_on_SpawnTimer_timeout"]

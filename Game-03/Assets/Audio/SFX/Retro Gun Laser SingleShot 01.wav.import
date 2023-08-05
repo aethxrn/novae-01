@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Gun Laser SingleShot 01.wav-6e29df7fca95b05e27fc15054e437fef.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/Retro Gun Laser SingleShot 01.wav"
+dest_files=[ "res://.import/Retro Gun Laser SingleShot 01.wav-6e29df7fca95b05e27fc15054e437fef.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Sprites/UI/NoHP.png" type="Texture" id=1]
+
+[node name="NoHealthIcon" type="TextureRect"]
+margin_right = 8.0
+margin_bottom = 8.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
