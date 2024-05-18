@@ -1,2 +1,2 @@
-# Novae-01
- a game made by me
+# novae-01
+ a small game made by me
