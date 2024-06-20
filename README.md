@@ -1,4 +1,4 @@
-# NOVAE-01 - 2D Game
+# NOVAE-01
 
 A small shmup game made with Godot Engine
 
