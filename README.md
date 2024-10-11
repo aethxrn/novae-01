@@ -36,7 +36,7 @@ Assets used in this project is created by
 - SFX : [Kronbits](https://kronbits.itch.io/)
 - BGM : [Diablo-Luna](https://pudretediablo.itch.io/)
 
-Special thanks to Kronbits for the cool SFX and Diablo Luna for the banger BGM.
+Special thanks to Kronbits for the SFX and Diablo Luna for the BGM.
 
 ## License
 
